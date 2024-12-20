@@ -13,7 +13,6 @@ const About = () => {
       </motion.div>
 
       <div className="mt-8 flex flex-col md:flex-row items-center md:items-start gap-8">
-        {/* Text Section */}
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="text-secondary text-[17px] max-w-3xl md:w-2/3"
@@ -39,7 +38,6 @@ const About = () => {
           
         </motion.p>
 
-        {/* Circular Image Section */}
         <motion.div
           variants={fadeIn("up", "spring", 0.3, 1)}
           whileHover={{

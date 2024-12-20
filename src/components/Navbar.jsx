@@ -47,7 +47,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="https://drive.google.com/file/d/1rfntN-GaXinvVn03GVLV20xLaJnnY9j6/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/1LOD6i1801TpqzXm93u2Unyhe40AD5FVa/view?usp=drive_link" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-secondary hover:text-white text-base sm:text-lg font-medium cursor-pointer border-2 border-secondary px-4 py-1 rounded-lg hover:bg-secondary hover:text-primary transition"
@@ -93,7 +93,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1rfntN-GaXinvVn03GVLV20xLaJnnY9j6/view?usp=drive_link" 
+                  href="https://drive.google.com/file/d/1LOD6i1801TpqzXm93u2Unyhe40AD5FVa/view?usp=drive_link" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-secondary hover:text-white text-base font-medium cursor-pointer border-2 border-secondary px-4 py-1 rounded-lg hover:bg-secondary hover:text-primary transition"
