@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { FaGithub, FaLinkedin,FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Hero = () => {
   const handleIconClick = (url) => {
@@ -9,20 +9,31 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative w-full h-screen mx-auto">
-      <div className={`${styles.paddingX} absolute inset-0 top-[50px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+    <section className="relative w-full h-screen mx-auto overflow-hidden">
+      <div
+        className={`${styles.paddingX} absolute inset-0 top-[50px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+      >
+        {/* Decorative Line */}
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+
+        {/* Hero Text */}
+        <div className="flex-1">
+          <h1
+            className={`${styles.heroHeadText} text-white break-words leading-tight`}
+          >
             Hi, I'm <span className="text-[#915eff]">Harshavardhan</span>
           </h1>
-          <p className={`${styles.heroSubText} text-white-100`}>
-            I'm a software developer with a passion<br className="sm:block hidden" /> for building innovative and user-friendly applications.
+          <p
+            className={`${styles.heroSubText} text-white-100 mt-2 leading-relaxed sm:text-left text-center`}
+          >
+            I'm a software developer with a passion<br className="sm:block hidden" />
+            for building innovative and user-friendly applications.
           </p>
 
+          {/* Social Icons */}
           <div className="flex gap-4 mt-5 z-20 relative">
             {[
               { icon: <FaGithub />, url: "https://github.com/uphadeharsh45" },
@@ -32,13 +43,13 @@ const Hero = () => {
               <motion.div
                 key={index}
                 whileHover={{
-                  scale: 1.2, 
+                  scale: 1.2,
                   rotate: 10,
                   color: "#915eff",
                 }}
                 transition={{
                   type: "spring",
-                  stiffness: 300, 
+                  stiffness: 300,
                   damping: 10,
                 }}
                 className="text-white text-3xl cursor-pointer hover:shadow-lg"
@@ -51,8 +62,10 @@ const Hero = () => {
         </div>
       </div>
 
+      {/* Computers Canvas */}
       <ComputersCanvas className="z-10" />
 
+      {/* Scroll Prompt */}
       <div className="absolute xs:bottom-2 bottom-10 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
