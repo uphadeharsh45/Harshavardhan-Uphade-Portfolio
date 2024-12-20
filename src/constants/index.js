@@ -16,13 +16,21 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    Cpp,
+    Django,
+    Express,
+    Flutter,
+    MySQL,
+    Python,
+    VsCode,
+    rml,
+    summarizer,
+    notebook
+
   } from "../assets";
   
   export const navLinks = [
@@ -61,12 +69,12 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "C++",
+      icon: Cpp,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "Python",
+      icon: Python,
     },
     {
       name: "JavaScript",
@@ -81,8 +89,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Flutter",
+      icon: Flutter,
     },
     {
       name: "Tailwind CSS",
@@ -92,174 +100,119 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
+    
+    {
+      name: "Django",
+      icon: Django,
+    },
     {
       name: "MongoDB",
       icon: mongodb,
     },
+   
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "MySQL",
+      icon: MySQL,
     },
+    
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "VsCode",
+      icon: VsCode,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+ 
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Route Master",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A comprehensive mobile app to optimize and manage delivery routes with an intuitive map-based interface.",
       tags: [
         {
-          name: "react",
+          name: "react native",
           color: "blue-text-gradient",
         },
         {
           name: "mongodb",
           color: "green-text-gradient",
         },
+        
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "expressjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: rml,
+      source_code_link: "https://github.com/uphadeharsh45/RouteMaster",
+      link:"",
     },
     {
-      name: "Job IT",
+      name: "iNotebook-online note taker",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that provides users with a convenient way to manage their notes on the cloud.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "express",
           color: "pink-text-gradient",
         },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+       
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: notebook,
+      source_code_link: "https://github.com/uphadeharsh45/iNotebook",
+      link:"",
     },
     {
-      name: "Trip Guide",
+      name: "Text Summarizer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A responsive and intuitive web interface where users can get summarized text for long inputs of text.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "hugging face",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: summarizer,
+      source_code_link: "https://github.com/uphadeharsh45/AI-Text-Summarizer",
+      project_link:"https://aitextsummarizer-bu2z8pnd.b4a.run/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies,  projects };

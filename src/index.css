@@ -13,6 +13,10 @@
   color-scheme: dark;
 }
 
+.canvas {
+  touch-action: pan-y !important;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

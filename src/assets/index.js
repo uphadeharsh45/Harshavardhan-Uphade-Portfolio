@@ -30,6 +30,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Cpp from '../assets/tech/Cpp.png';
+import Python from '../assets/tech/Python.png';
+import Django from '../assets/tech/Django.png';
+import Express from '../assets/tech/Express.png';
+import Flutter from '../assets/tech/Flutter.png';
+import MySQL from '../assets/tech/MySQL.png';
+import VsCode from '../assets/tech/Visual Studio Code (VS Code).png'
+import rml from './rml.png';
+import summarizer  from './summarizer.png';
+import notebook  from './notebook.png';
 
 export {
   logo,
@@ -61,4 +71,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  Cpp,
+  Python,
+  Django,
+  Express,
+  Flutter,
+  MySQL,
+  VsCode,
+  rml,
+  summarizer,
+  notebook
 };
